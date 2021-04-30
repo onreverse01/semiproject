@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* 공통 */
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#memberList-container{
+    margin: 0 auto;
+    width:1200px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+/* 검색 */
+
+div#search-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+
+input{
+    height: 20px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    border-radius: 10%;
+    border: 1px solid skyblue;
+    outline: 0;
+}
+button:hover{
+    background-color: #fd9000;
+	transition: all ease 0.3s;
+}
+
+/* 조회, 권한변경, 삭제 */
+
+div#tableArea{
+    width: 800px;
+    margin: 0 auto;
+    border: 0;
+    font-size: 12px;
+}
+
+#tbl-member th{
+    background-color: #fd9000;
+    color:white;
+    font-size: 15px;
+}
+
+#tbl-member td{
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+
+table#tbl-member{
+    border-collapse: collapse;
+    border-top: 3px solid gray;
+    width: 100%;
+}
+#tbl-member td>input{
+	cursor: pointer;
+	width: 70px;
+    height: 25px;
+    background-color: whitegray;
+    color: black;
+    border-radius: 10%;
+    border: 1px solid white;
+    outline: 0;
+}
+#tbl-member td>input:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    transition: all ease 0.3s;
+}
+
+select{
+	appearance: none;
+    background: url(./../images/arrow_down_18dp.png) no-repeat 100%;  /* 화살표 모양의 이미지 */
+	background-size: 20%;
+	position: relative;
+	width: 55px;
+    height: 25px;
+    border: 1px solid #999;
+    outline: 0;
+}
+select.event1, select.event2{
+	width: 68px;
+}
+select:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 0;
+    height: 0;
+    margin-top: -1px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333;
+}
+
+
+/* 페이지바 */
+
+
+#pageBar{
+    margin-top:30px;
+}
+
+#pageBar span{
+    border-radius: 15%;
+    padding: 9px 15px;
+    background-color: #fd9000;
+    text-decoration: none;
+    color: white;
+}
+#pageBar a{
+	border-radius: 15%;
+    padding: 9px 15px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+#pageBar a:hover{
+    background-color: #fd9000;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+#pageBar a:active{
+    background-color: #fd9000;
+    color: gray;
+}
+
+.cPage {
+    margin-right: 7px;
+}

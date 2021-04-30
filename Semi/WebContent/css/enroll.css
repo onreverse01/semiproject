@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+
+#ho_enroll_from{
+	padding: 80px;
+	border: 1px solid black;
+	border-color: #e6e6e6;
+	color: #4d4d4d;
+}
+
+
+#ho_enroll_box_div {
+	text-align: left;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 450px;
+	border: 1px solid black;
+	border-color: #e6e6e6;
+}
+#ho_enroll_box_div>h1 {
+	margin: auto;
+    padding: 35px;
+    
+	
+}
+#ho_enroll_box_div>.agremment_form {
+	margin: auto;
+}
+/* 필수글자 */
+.ho_necessary{
+	color: red;
+}
+
+/* 아이디~약관동의 글씨까지 */
+#for_enroll_css_wrapper{
+padding-left: 45px;
+}
+
+/* 모든 input 박스 */
+.input{
+	width: 252px;
+    height: 27px;
+    margin: 3px;
+    border: 1px solid black;
+	border-color: #e6e6e6;
+}
+
+
+#ho_agreement_div{
+    margin: 14px;
+    margin-top: 31px;
+}
+
+.ho_agreement_filedset > label, .ho_agreement_filedset > input[type=checkbox]{
+	margin-top: 15px;
+	
+}
+
+
+#ho_id_check_button, #ho_email_check_button{
+    box-shadow: 0px 0px 10px -5px #899599;
+    background-color: #ededed;
+    border-radius: 5px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #4c6369;
+	font-size: 15px;
+    padding: 7px 8px;
+    transform: translateY(1px);
+}
+#ho_id_check_button:hover, #ho_email_check_button:hover{
+	background-color:#bab1ba;
+}
+#ho_id_check_button:active, #ho_email_check_button:active{
+	position:relative;
+	top:1px;
+}
+
+/*sumit버튼  */
+#enroll_sumit_button{
+    box-shadow: 0px 0px 10px -5px #899599;
+    background-color: #ffa126;
+    border-radius: 5px;
+    border: 1px solid #d6bcd6;
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+    padding: 12px 60px;
+    margin: auto;
+}
+
+#enroll_sumit_button:hover{
+	background-color:#bab1ba;
+}
+#enroll_sumit_button:active{
+	position:relative;
+	top:1px;
+}
+

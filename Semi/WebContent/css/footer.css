@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+.meeple-footer{
+	clear:both;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+
+.infofooter {
+    flex-basis: 360px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.etc {
+    flex-basis: 360px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.contact {
+    flex-basis: 360px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container > div > h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container > div > p {
+	font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px; 
+    font-size: 14px;
+}
+
+.container > div > a {
+	font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px; 
+    font-size: 14px;
+}
+
+.container > div > a > i {
+    margin: 0px; 
+    font-size: 14px;
+}
+
+.last { 
+    width: 1200px;
+    margin: auto;
+}
+
+#last {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#lasthr {
+    margin-top:40px;
+    margin-bottom: 0px;
+}

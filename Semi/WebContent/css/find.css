@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+/* 전체div */
+#find_all_div {
+	height: 900px;
+	width: 331.328px;
+	/* margin: 0 0 0 331px;
+            padding: 0 15px 0 15px; */
+	position: relative;
+	margin: auto;
+}
+
+/* 아이디찾기, 비밀번호찾기 글자 */
+.find_div_div {
+	display:table-cell;
+	vertical-align:middle;
+	border: 1px solid black;
+	height: 50px;
+	position: relative;
+	color: #4d4d4d;
+    background-color: #e8e8e8;
+    border-color: #e6e6e6;
+    font-weight: 900;
+    width: 344px;
+}
+
+
+/* id칸 password칸  전체 틀*/
+#find_id_div, #find_password_div {
+    height: 342px;
+	width: 331.328px;
+	/* padding: -1 15px 0 15px; */
+	border: 1px solid black;
+	position: relative;
+	border-color: #e6e6e6;
+}
+
+/* text 칸 */
+#find_id_div>[type=text], #find_password_div>[type=text] {
+	width: 250px;
+	height: 36px;
+	margin-top: 8px;
+	color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+	
+}
+
+
+
+.information_small_div{
+	text-align: left;
+	margin-left: 40px;
+    margin-right: 35px;
+	
+}
+/* 글귀 */
+#information_small {
+	font-size: 12px;
+	color: #888;
+	text-align: left;
+}
+
+
+
+
+/* 찾기버튼 */
+#find_id_button, #find_password_button  {
+    box-shadow: 0px 0px 10px -5px #899599;
+    background-color: #ededed;
+    border-radius: 5px;
+    border: 1px solid #d6bcd6;
+    display: block;
+    cursor: pointer;
+    color: #4c6369;
+    font-size: 17px;
+    padding:9px 105px;
+    margin: auto;
+    
+}
+#find_id_button:hover , #find_password_button:hover ,.goto_button:hover{
+	
+	background-color:#bab1ba;
+}
+#find_id_button:active , #find_password_button:active ,.goto_button:active{
+	position:relative;
+	top:1px;
+	
+	position:relative;
+	top:1px;
+}
+
+
+/* 로그인 무료회원가입 버튼 */
+
+#goto_button_div{
+	margin-left: 9px;
+}
+
+
+.goto_button {
+   box-shadow: 0px 0px 10px -5px #899599;
+	 background-color: #ededed;
+	border-radius:5px;
+	border: 1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+    color: #4c6369;
+	padding: 3px 21px;
+	
+}

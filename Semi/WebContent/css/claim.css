@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menubar > ul {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+}
+
+.menubar > ul > li{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+.menubar > ul > li:first-child {
+    margin-top: 15px;
+}
+
+.claimfrm {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    text-align: left;
+}
+
+.menubar {
+    flex-basis: 300px;
+    margin-right: 100px;
+}
+
+.claimBorder {
+    width: 490px;
+    height: 550px;
+    margin-top: 40px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.claimBorder > h1 {
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.choice {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.contentLabel {
+    position: relative;
+    bottom: 150px;
+}
+
+.submit {
+    text-align: right;
+    margin-top: 3px;
+    margin-right: 30px;
+}
+
+.cList {
+    border: 1px solid black;
+    border-collapse: collapse; /*경계선 설정*/
+}
+.cListh > th {
+    border: 1px solid black;
+    padding: 5px; /*여백*/
+}
+
+.cListb > td {
+    border: 1px solid black;
+    padding: 5px; /*여백*/
+}
+
+.cLista > td {
+    border: 1px solid black;
+    padding: 5px; /*여백*/
+}
+
+.claimView > ul > li {
+    margin-top:20px;
+    margin-bottom:20px;
+}

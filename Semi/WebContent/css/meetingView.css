@@ -1,0 +1,381 @@
+#meetingViewWrapper{
+	margin:0;
+	text-align:left;
+	position:relative;
+}
+#meetingViewLeft{
+	width:775px;
+	margin:10px;
+}
+
+#imgWrapper{
+	width:740px;
+	text-align:center;
+	margin: 40px 10px;
+	border: 1px solid #e6e6e6;
+}/*수정*/
+#imgWrapper img {
+	width:740px;
+	height:430px;
+}
+
+#contentWrapper {
+	width: 1150px;
+    min-height: 300px;
+    padding: 12px;
+}/*수정*/
+#contentWrapper img{
+	background-size:cover;
+	max-width: 100%;
+	height: auto;
+}
+
+#meetingViewRight{
+	position:absolute;
+	right:20px;
+	top:-20px;
+	margin:0 auto;
+}
+#description{
+	width:380px;
+	text-align:left;
+	margin: 26px 10px;
+	border: 1px solid #e6e6e6;
+}/*수정*/
+
+#description h2{
+	padding: 0px 10px;
+}
+
+#description ol{
+	list-style: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#description table tr th, #description table tr td{
+	padding:7px;
+}
+
+#description input#title{
+	width: 100%;
+	height: 45px;
+	font-size:20px;
+	outline: 0;
+	background-color: #fbfbfb;
+	border: 1px solid #e6e6e6;
+	margin-bottom:15px;
+}
+
+#description select#category,
+#description select#location,
+#description input#place,
+#description input#time{
+	width: 290px;
+	height: 35px;
+}
+
+#description select#category,
+#description select#location{
+	appearance: none;
+	background: url(./../images/arrow_down_18dp.png) no-repeat 104%;
+	background-size : 15%;
+	border:1px solid #e6e6e6;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 0;
+}
+
+#description input#place,
+#description input#time{
+	background-color:#fbfbfb;
+	border:1px solid #e6e6e6;
+	outline: 0;
+}
+
+div.flex{
+	display: flex;
+}
+
+div.flex span.won{
+	border: 1px solid #e6e6e6;
+	background-color:#fbfbfb;
+	padding-left:5px;
+	padding-top: 7px;
+	border-right:0;
+	height:35px;
+}
+
+div.flex input#cost{
+	border:1px solid #e6e6e6;
+	background-color:#fbfbfb;
+	border-left:0;
+	border-right:0;
+	width:250px;
+	height:35px;
+	outline: 0;
+}
+
+div.flex span.won2{
+	border: 1px solid #e6e6e6;
+	background-color:#fbfbfb;
+	padding-top: 7px;
+	padding-right: 5px;
+	border-left:0;
+	height:35px;
+}
+
+div.flex input#max{
+	border: 1px solid #e6e6e6;
+	background-color:#fbfbfb;
+	border-right:0;
+	width:270px;
+	height:35px;
+	outline: 0;
+}
+
+div.flex span.person{
+	border: 1px solid #e6e6e6;
+	background-color:#fbfbfb;
+	padding-top: 7px;
+	padding-right: 5px;
+	border-left:0;
+	height:35px;
+}
+
+/*
+#description input#cost,
+#description input#max{
+	display: flex;
+	text-align:right;
+}
+*/
+
+/*
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}*/
+
+#meetingViewLeft input[name=upFile]{
+	margin: 0;
+	/*background-color:rgb(255 241 205);*/
+	border:1px solid #e6e6e6;
+	outline: 0;
+}
+
+/*버튼*/
+
+.meetingViewBtn{
+	margin: 0 auto;
+    width: 100%;
+    height: 65px;
+    font-size: 25px;
+    border: 0;
+    border-radius: 10px;
+    outline: 0;
+}/*수정*/
+
+/*버튼색*/
+
+.meetingViewBtn#submit{
+	background-color: rgb(239, 108, 53);
+	color:white;
+}
+
+.meetingViewBtn#submit:hover{
+	background-color: rgb(239, 108, 53);
+	transition: ease 0.3s;
+	color:black;
+}
+.meetingViewBtn#submit:active{
+	border:1px solid rgb(239, 108, 53);
+	background-color: white;
+	color:black;
+	animation-name:button-ani;
+	animation-direction:alternate;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;/*애니메이션 마지막 상태유지*/
+	animation-timing-function: ease;
+}
+
+
+.meetingViewBtn#deadline{
+	background-color: lightgreen;
+	color:white;
+}
+.meetingViewBtn#deadline:hover{
+	background-color: lightgreen;
+	transition: ease 0.3s;
+	color:black;
+}
+.meetingViewBtn#deadline:active{
+	border:1px solid lightgreen;
+	background-color: white;
+	color:black;
+	animation-name:button-ani;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;/*애니메이션 마지막 상태유지*/
+	animation-timing-function: ease;
+}
+.meetingViewBtn#cancel{
+	background-color: #ff3939;
+	color:white;
+}
+.meetingViewBtn#cancel:hover{
+	background-color: #ff3939;
+	transition: ease 0.3s;
+	color:black;
+}
+.meetingViewBtn#cancel:active{
+	border:1px solid #ff3939;
+	background-color: white;
+	color:black;
+	animation-name:button-ani;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;/*애니메이션 마지막 상태유지*/
+	animation-timing-function: ease;
+}
+
+@keyframes button-ani{
+	0%{
+		transform: scale(1, 1);
+	}
+	100%{
+		transform: scale(0.9, 0.9);
+	}
+}
+
+/*버튼*/
+
+#updateDeleteWrapper{
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+#updateDeleteWrapper [value="등록"],
+#updateDeleteWrapper [value="수정"],
+#updateDeleteWrapper [value="삭제"],
+#updateDeleteWrapper [value="취소"]{
+	border:0;
+	border-radius:10%;
+	outline:0;
+}
+#updateDeleteWrapper [value="등록"]:hover,
+#updateDeleteWrapper [value="수정"]:hover{
+	transition: ease 0.3s;
+	background-color: #fd9000;
+	color:white;
+}
+#updateDeleteWrapper [value="삭제"]:hover,
+#updateDeleteWrapper [value="취소"]:hover{
+	transition: ease 0.3s;
+	background-color:red;
+	color:white;
+}
+
+#imgSrcWrapper {
+	display:flex; margin-left: 10px;
+    margin-top: -40px;
+    margin-bottom: 24px;
+}
+
+
+    #section2 {
+      position: fixed;
+      right: 0;
+      bottom: -500px;
+      transition-duration: 1s;
+      transition-timing-function: ease-in;
+    }
+    #closee {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 11px;
+      top: 6px;
+      cursor: pointer;
+    }
+    #messagnerWrapper {
+      margin: 0;
+      padding: 0;
+      width: 300px;
+      height: 500px;
+      position: relative;
+      z-index: 30;
+    }
+    #backimg {
+      width: 300px;
+      height: 500px;
+      position: absolute;
+      z-index: -1;
+    }
+    #backimg img {
+      width: 100%;
+      height: 100%;
+    }
+    #abss {
+      position: absolute;
+      left: 8px;
+      top: 30px;
+    }
+    #contextArea {
+      width: 285px;
+      height: 384px;
+      overflow-y: scroll;
+      background: white;
+      position: relative;
+    }
+    #inputArea {
+      width: 300px;
+      height: 50px;
+    }
+    #inputArea input[type="text"] {
+      width: 230px;
+    }
+    .notme {
+      text-align: left;
+    }
+    .notme .chatwriter {
+      color: black;
+      font-weight: bold;
+    }
+    .me {
+      text-align: right;
+    }
+    .me .chatwriter {
+      color: #fd9000;
+      font-weight: bold;
+    }
+    .chatwriter {
+      margin-bottom: 0;
+    }
+    .chatNotMe {
+      background: lightgray;
+      border-radius: 10px;
+      float: left;
+      max-width: 200px;
+      border-radius: 10px;
+    }
+    .chatMe {
+      background: #fd9000;
+      color: white;
+      float: right;
+      max-width: 200px;
+      border-radius: 10px;
+    }
+    #openMsg {
+      position: absolute;
+      top: -50px;
+      right: 0;
+      width: 50px;
+      height: 50px;
+      background: #fd9000;
+      cursor: pointer;
+      border-radius: 10px;
+      transition-delay:1s;
+    }
+    .msgFrm{
+    	margin-left:-8px;
+    }
