@@ -77,3 +77,4 @@ DBMS : Oracle 11g XE
 ## 9. 별첨
 
 - 미플 PPT 첨부자료
+https://www.notion.so/MeetPeople-c95b7cbe2bfe473d89d0046ed87e4be1#d2d273374441406c924e3e9542c2383e
