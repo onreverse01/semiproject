@@ -2,7 +2,6 @@
 
 [KH]스마트 콘텐츠 융합 응용SW 엔지니어 양성과정 중 세미프로젝트 사용자들이 모임을 생성하고 참여하는 소셜 미팅 사이트입니다.
 
-- `이미지 펼쳐보기`
 
 ## 2. 프로젝트 요구사항
 
@@ -34,7 +33,7 @@
 
 ### 관리자 회원조회 구현
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6847fa6-0032-48a1-81fd-63d301284e56/meetpeople.kro.kr_admin_memberList.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6847fa6-0032-48a1-81fd-63d301284e56/meetpeople.kro.kr_admin_memberList.png)
+
 
 회원 검색 구현(id, 이름)
 
@@ -44,7 +43,7 @@
 
 ### 마이페이지 내가 쓴 글 구현
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f5a2673-081e-421b-b500-d998eafb7b59/meetpeople.kro.kr_member_myBoardList.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0f5a2673-081e-421b-b500-d998eafb7b59/meetpeople.kro.kr_member_myBoardList.png)
+
 
 자유 게시판에 자신의 것만 가져오게 구현
 
